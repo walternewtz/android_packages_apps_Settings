@@ -120,6 +120,7 @@ public class SecuritySettings extends DashboardFragment {
         securityPreferenceControllers.add(new FingerprintStatusPreferenceController(context));
         securityPreferenceControllers.add(new ChangeScreenLockPreferenceController(context, host));
         securityPreferenceControllers.add(new AppLockPreferenceController(context));
+        securityPreferenceControllers.add(new AutoRebootPreferenceController(context));
         controllers.add(new PreferenceCategoryController(context, SECURITY_CATEGORY)
                 .setChildren(securityPreferenceControllers));
         controllers.addAll(securityPreferenceControllers);
