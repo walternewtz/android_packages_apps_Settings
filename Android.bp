@@ -51,6 +51,7 @@ android_library {
     aaptflags: ["--extra-packages com.crdroid.settings"],
 
     resource_dirs: ["res",
+                    "res-pixel",
                     "crDroidSettings/res"
     ],
 
@@ -82,7 +83,10 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "org.lineageos.platform.internal",
+        "SettingsGoogle-lib",
     ],
+    manifest: "AndroidManifest.xml",
+    additional_manifests: ["SettingsGoogle-Manifest.xml"],
 
     libs: [
         "telephony-common",
