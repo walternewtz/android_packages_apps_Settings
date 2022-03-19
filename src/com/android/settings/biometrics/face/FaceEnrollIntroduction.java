@@ -379,12 +379,12 @@ public class FaceEnrollIntroduction extends BiometricEnrollIntroduction {
         }
         if (mForRedo) {
             componentName = new ComponentName(
-                "com.crdroid.faceunlock",
-                "com.crdroid.faceunlock.FaceEnrollActivity");
+                "org.pixelexperience.faceunlock",
+                "org.pixelexperience.faceunlock.FaceEnrollActivity");
         } else {
             componentName = new ComponentName(
-                "com.crdroid.faceunlock",
-                "com.crdroid.faceunlock.SetupFaceIntroActivity");
+                "org.pixelexperience.faceunlock",
+                "org.pixelexperience.faceunlock.SetupFaceIntroActivity");
         }
         intent.setComponent(componentName);
         if (intent.resolveActivity(getPackageManager()) != null) {
