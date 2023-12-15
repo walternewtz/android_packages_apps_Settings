@@ -12280,4 +12280,8 @@
 
     <string name="auto_reboot_title">Auto reboot</string>
     <string name="auto_reboot_summary">Automatically reboot the device, if the phone hasn\'t been unlocked within the selected number of hours.</string>
+
+    <!-- Background process killer -->
+    <string name="background_process_killer_title">Kill background processes</string>
+    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
 </resources>
